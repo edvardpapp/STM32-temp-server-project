@@ -1,3 +1,3 @@
 msg = "Hello World!"
-print(msg)  
+print(f"{msg} \u2103")  
 

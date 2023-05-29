@@ -5,4 +5,4 @@
 //org.eclipse.debug.core.PREFERRED_DELEGATES/org.eclipse.cdt.launch.remoteApplicationLaunchType=org.eclipse.rse.remotecdt.dsf.debug,debug,;
 eclipse.preferences.version=1
 org.eclipse.debug.core.PREF_BREAKPOINT_MANAGER_ENABLED_STATE=true
-prefWatchExpressions=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\n<watchExpressions>\n    <expression enabled\="true" text\="rx_buffer"/>\n    <expression enabled\="true" text\="recieved_message"/>\n    <expression enabled\="true" text\="uwTick"/>\n    <expression enabled\="true" text\="current_state"/>\n</watchExpressions>\n
+prefWatchExpressions=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\n<watchExpressions>\n    <expression enabled\="true" text\="rx_buffer"/>\n    <expression enabled\="true" text\="recieved_message"/>\n    <expression enabled\="true" text\="uwTick"/>\n    <expression enabled\="true" text\="current_state"/>\n    <expression enabled\="true" text\="temperature"/>\n    <expression enabled\="true" text\="humidity"/>\n</watchExpressions>\n

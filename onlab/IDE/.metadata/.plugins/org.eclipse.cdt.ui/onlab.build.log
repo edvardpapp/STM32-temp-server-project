@@ -1,17 +1,17 @@
-20:26:04 **** Incremental Build of configuration Debug for project onlab ****
+21:54:10 **** Incremental Build of configuration Debug for project onlab ****
 make -j7 all 
 arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H750xx -c -I../Core/Inc -I/Users/dominikpapp/STM32Cube/Repository/STM32Cube_FW_H7_V1.11.0/Drivers/STM32H7xx_HAL_Driver/Inc -I/Users/dominikpapp/STM32Cube/Repository/STM32Cube_FW_H7_V1.11.0/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I/Users/dominikpapp/STM32Cube/Repository/STM32Cube_FW_H7_V1.11.0/Drivers/CMSIS/Device/ST/STM32H7xx/Include -I/Users/dominikpapp/STM32Cube/Repository/STM32Cube_FW_H7_V1.11.0/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-arm-none-eabi-gcc -o "onlab.elf" @"objects.list"   -mcpu=cortex-m7 -T"/Users/dominikpapp/Desktop/egyetem/6felev/onlab/IDE/onlab/STM32H750XBHX_FLASH.ld" --specs=nosys.specs -Wl,-Map="onlab.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+arm-none-eabi-gcc -o "onlab.elf" @"objects.list"   -mcpu=cortex-m7 -T"/Users/dominikpapp/Desktop/egyetem/6felev/onlab/IDE/onlab/STM32H750XBHX_FLASH.ld" --specs=nosys.specs -Wl,-Map="onlab.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
 Finished building target: onlab.elf
  
 arm-none-eabi-size   onlab.elf 
 arm-none-eabi-objdump -h -S  onlab.elf  > "onlab.list"
    text	   data	    bss	    dec	    hex	filename
-  31228	     28	   2380	  33636	   8364	onlab.elf
+  48620	    500	   2348	  51468	   c90c	onlab.elf
 Finished building: default.size.stdout
  
 Finished building: onlab.list
  
 
-20:26:05 Build Finished. 0 errors, 0 warnings. (took 910ms)
+21:54:11 Build Finished. 0 errors, 0 warnings. (took 1s.21ms)
 

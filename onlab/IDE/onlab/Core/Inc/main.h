@@ -65,6 +65,10 @@ void Error_Handler(void);
 #define RST_GPIO_Port GPIOH
 #define GP0_Pin GPIO_PIN_12
 #define GP0_GPIO_Port GPIOH
+#define I2C_Clock_Pin GPIO_PIN_12
+#define I2C_Clock_GPIO_Port GPIOD
+#define I2C_Data_Pin GPIO_PIN_13
+#define I2C_Data_GPIO_Port GPIOD
 #define GP2_Pin GPIO_PIN_3
 #define GP2_GPIO_Port GPIOA
 #define CHE_Pin GPIO_PIN_4

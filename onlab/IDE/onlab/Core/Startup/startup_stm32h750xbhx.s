@@ -58,7 +58,7 @@ defined in linker script */
   .weak  Reset_Handler
   .type  Reset_Handler, %function
 Reset_Handler:
-  ldr   sp, =_estack      /* set stack pointer */
+   ldr   sp, =_estack      /* set stack pointer */
 
 /* Call the clock system initialization function.*/
   bl  SystemInit
@@ -186,7 +186,7 @@ g_pfnVectors:
   .word     USART3_IRQHandler                 /* USART3                       */
   .word     EXTI15_10_IRQHandler              /* External Line[15:10]s        */
   .word     RTC_Alarm_IRQHandler              /* RTC Alarm (A and B) through EXTI Line */
-  .word     My_IRQ_Handler                                 /* Reserved                     */
+  .word     0                                 /* Reserved                     */
   .word     TIM8_BRK_TIM12_IRQHandler         /* TIM8 Break and TIM12         */
   .word     TIM8_UP_TIM13_IRQHandler          /* TIM8 Update and TIM13        */
   .word     TIM8_TRG_COM_TIM14_IRQHandler     /* TIM8 Trigger and Commutation and TIM14 */
