@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete 4 resources" deleteContents="false" description="Delete 4 resources" element1="/CN2_3V3_PIN20/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex 2.c" element2="/CN2_3V3_PIN20/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash 2.c" element3="/CN2_3V3_PIN20/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio 2.c" element4="/CN2_3V3_PIN20/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma 2.c" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="4" stamp="1680009613516"/>
+</session>

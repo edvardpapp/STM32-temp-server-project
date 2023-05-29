@@ -1,0 +1,10 @@
+16:57:41 **** Incremental Build of configuration Debug for project TouchGFX ****
+make -j7 all 
+arm-none-eabi-size   TouchGFX.elf 
+   text	   data	    bss	    dec	    hex	filename
+40034002	   1636	5789548	45825186	2bb3ca2	TouchGFX.elf
+Finished building: default.size.stdout
+ 
+
+16:57:42 Build Finished. 0 errors, 0 warnings. (took 1s.399ms)
+

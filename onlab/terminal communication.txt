@@ -1,0 +1,7 @@
+stty -f /dev/tty.usbserial-1220 115200 -parenb -cstopb cs8 -crtscts //8 adatbit stb beállítja a portra
+
+screen /dev/tty.usbserial-1220 115200 /terminált megnyitod
+Beard a parancsot amit el akarsz küldeni pl AT
+Utána control A és írj egy :
+Utána az also sort bemásolod		
+:exec !!echo -e '\r\n' > /dev/tty.usbserial-1220

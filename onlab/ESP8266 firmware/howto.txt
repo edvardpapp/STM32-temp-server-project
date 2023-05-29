@@ -1,0 +1,5 @@
+esptool.py --chip auto --port /dev/tty.usbserial-1220 --baud 115200 --before default_reset --after hard_reset write_flash -z --flash_mode dio --flash_freq 40m --flash_size 1MB 0x0 /Users/dominikpapp/Desktop/egyetem/6felev/onlab/ESP8266 firmware/Cytron_ESP-01S_AT_Firmware_V2.2.0.bin
+
+Van --trace: esptool.py --trace --chip auto
+
+GitHub: https://github.com/CytronTechnologies/esp-at-binaries

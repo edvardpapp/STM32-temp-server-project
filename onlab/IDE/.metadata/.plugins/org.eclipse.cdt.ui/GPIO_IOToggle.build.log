@@ -1,0 +1,10 @@
+13:11:54 **** Incremental Build of configuration XIP_QSPI_InternalSRAM_Debug for project GPIO_IOToggle ****
+make -j7 all 
+arm-none-eabi-size   GPIO_IOToggle.elf 
+   text	   data	    bss	    dec	    hex	filename
+   7524	     24	   3128	  10676	   29b4	GPIO_IOToggle.elf
+Finished building: default.size.stdout
+ 
+
+13:11:54 Build Finished. 0 errors, 0 warnings. (took 252ms)
+
