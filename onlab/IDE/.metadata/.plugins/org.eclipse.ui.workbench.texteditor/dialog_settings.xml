@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="AT_halt_until"/>
+		<item key="selection" value="My_IRQ_Handler"/>
 		<item key="wrap" value="true"/>
-		<item key="casesensitive" value="false"/>
-		<item key="wholeword" value="false"/>
+		<item key="casesensitive" value="true"/>
+		<item key="wholeword" value="true"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="My_IRQ_Handler"/>
+			<item value="my"/>
+			<item value="rx_buffer"/>
+			<item value="recieved_message"/>
+			<item value="stm32h7xx_hal_def"/>
+			<item value="huart3"/>
 			<item value="AT_halt_until"/>
 			<item value="strstr"/>
 			<item value="HAL_SetTickFreq"/>
@@ -17,9 +23,9 @@
 			<item value="sys"/>
 			<item value="pRxBuffPtr"/>
 			<item value="pd5"/>
-			<item value="gp0"/>
 		</list>
 		<list key="replacehistory">
+			<item value="received_message"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">

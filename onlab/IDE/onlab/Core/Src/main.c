@@ -40,7 +40,7 @@
 // AT command for connecting to server
 #define SERVER_CONNECT "AT+CIPSTART=\"TCP\",\""IP_ADDRESS"\","PORT"\r\n"
 #define WIFI_SSID "Telekom-2D6325"	// Local WIFI SSID
-#define WIFI_PASS "***********"// Local WIFI password
+#define WIFI_PASS "4njteenm6s7cx4cb"// Local WIFI password
 // AT command for connecting to wifi
 #define WIFI_CONNECT "AT+CWJAP=\""WIFI_SSID"\",\""WIFI_PASS"\"\r\n"
 /* USER CODE END PD */
