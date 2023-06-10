@@ -1,5 +1,5 @@
 # STM32-temp-server-project
-A projekt az Önálló laboratórium kurzus keretei között valósult meg. A konzulensem Scherer Balázs volt.
+A projekt a 6. féléves Önálló laboratórium kurzus keretei között valósult meg. A konzulensem Scherer Balázs volt.
 ## Használat
 Az ESP-re töltendő .bin file: "ESP8266 firmware/Cytron_ESP-01S_AT_Firmware_V2.2.0.bin".
 Az STM32 mikrokontrollerre fordítandó projekt: "IDE/onlab".
